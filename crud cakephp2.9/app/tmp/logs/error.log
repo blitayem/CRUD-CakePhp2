@@ -1,0 +1,1950 @@
+2017-08-13 02:28:06 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/user
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-08-13 02:28:15 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/post
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-08-13 02:28:37 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/posts
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(3633): ConnectionManager::getDataSource('default')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1162): Model->setDataSource('default')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(3660): Model->setSource('posts')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(3038): Model->getDataSource()
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(3010): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\PostsController.php(18): PaginatorComponent->paginate()
+#8 [internal function]: PostsController->index()
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2017-08-13 02:29:21 Error: [MissingViewException] View file "Posts\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts\\index.ctp',
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/posts
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(470): View->_getViewFileName('Posts\\index')
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-13 02:29:25 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/post
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-08-13 02:30:13 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/post
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-08-13 02:30:19 Error: [MissingViewException] View file "Posts\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts\\index.ctp',
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/posts
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(470): View->_getViewFileName('Posts\\index')
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-13 02:30:42 Error: [MissingViewException] View file "Posts\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts\\index.ctp',
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/posts/index
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(470): View->_getViewFileName('Posts\\index')
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-13 02:31:02 Error: [NotFoundException] Invalid post
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/posts/view
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-13 02:31:42 Error: [MissingViewException] View file "Posts\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts\\index.ctp',
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/posts
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(470): View->_getViewFileName('Posts\\index')
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-13 16:24:25 Error: [MissingControllerException] Controller class StudentsController could not be found.
+Exception Attributes: array (
+  'class' => 'StudentsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/students
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-08-13 16:24:30 Error: [MissingControllerException] Controller class StudentsController could not be found.
+Exception Attributes: array (
+  'class' => 'StudentsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/students/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-08-13 16:24:44 Error: [MissingControllerException] Controller class StudentsController could not be found.
+Exception Attributes: array (
+  'class' => 'StudentsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-08-13 16:25:17 Error: [MissingControllerException] Controller class StudentsController could not be found.
+Exception Attributes: array (
+  'class' => 'StudentsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-08-13 16:25:43 Error: [MissingControllerException] Controller class StudentsController could not be found.
+Exception Attributes: array (
+  'class' => 'StudentsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/students
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-08-13 16:28:34 Error: [MissingControllerException] Controller class StudentsController could not be found.
+Exception Attributes: array (
+  'class' => 'StudentsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/students
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-08-13 16:29:20 Error: [MissingControllerException] Controller class StudentController could not be found.
+Exception Attributes: array (
+  'class' => 'StudentController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/student
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-08-13 16:30:27 Error: [MissingControllerException] Controller class StudentsController could not be found.
+Exception Attributes: array (
+  'class' => 'StudentsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/students
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-08-13 16:30:47 Error: [MissingControllerException] Controller class StudentsController could not be found.
+Exception Attributes: array (
+  'class' => 'StudentsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/students
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-08-13 16:31:00 Error: [MissingControllerException] Controller class StudentsController could not be found.
+Exception Attributes: array (
+  'class' => 'StudentsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/students
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-08-13 16:31:05 Error: [MissingControllerException] Controller class StudentsController could not be found.
+Exception Attributes: array (
+  'class' => 'StudentsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/%20Students
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-08-13 16:32:21 Error: [MissingControllerException] Controller class StudentsController could not be found.
+Exception Attributes: array (
+  'class' => 'StudentsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/%20Students
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-08-13 16:35:03 Error: [MissingControllerException] Controller class StudentsController could not be found.
+Exception Attributes: array (
+  'class' => 'StudentsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/%20Students
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-08-13 16:35:23 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/%20Students
+Stack Trace:
+#0 [internal function]: StudentsController->index()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-13 16:35:44 Error: [Error] Call to a member function save() on null
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/%20Students/add
+Stack Trace:
+#0 [internal function]: StudentsController->add()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-13 16:36:44 Error: [ParseError] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/%20Students/add
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-08-13 16:36:47 Error: [ParseError] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/%20Students
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-08-13 16:37:09 Error: [ParseError] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/%20Students
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-08-13 17:58:08 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'student' doesn't have a default value
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('INSERT INTO `ma...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(1026): DboSource->execute('INSERT INTO `ma...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1940): DboSource->create(Object(AppModel), Array, Array)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\NotesController.php(98): Model->save(Array)
+#6 [internal function]: NotesController->add()
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-08-13 17:58:44 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'student' doesn't have a default value
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('INSERT INTO `ma...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(1026): DboSource->execute('INSERT INTO `ma...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1940): DboSource->create(Object(AppModel), Array, Array)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\NotesController.php(98): Model->save(Array)
+#6 [internal function]: NotesController->add()
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-08-13 18:00:23 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'student' doesn't have a default value
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('INSERT INTO `ma...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(1026): DboSource->execute('INSERT INTO `ma...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1940): DboSource->create(Object(AppModel), Array, Array)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\NotesController.php(98): Model->save(Array)
+#6 [internal function]: NotesController->add()
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-08-13 18:01:29 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'student' doesn't have a default value
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('INSERT INTO `ma...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(1026): DboSource->execute('INSERT INTO `ma...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1940): DboSource->create(Object(AppModel), Array, Array)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\NotesController.php(98): Model->save(Array)
+#6 [internal function]: NotesController->add()
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-08-13 18:07:42 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'student' doesn't have a default value
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('INSERT INTO `ma...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(1026): DboSource->execute('INSERT INTO `ma...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1940): DboSource->create(Object(AppModel), Array, Array)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\NotesController.php(98): Model->save(Array)
+#6 [internal function]: NotesController->add()
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-08-13 18:07:59 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'student' doesn't have a default value
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('INSERT INTO `ma...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(1026): DboSource->execute('INSERT INTO `ma...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1940): DboSource->create(Object(AppModel), Array, Array)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\NotesController.php(98): Model->save(Array)
+#6 [internal function]: NotesController->add()
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-08-13 18:13:11 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'student' doesn't have a default value
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('INSERT INTO `ma...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(1026): DboSource->execute('INSERT INTO `ma...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1940): DboSource->create(Object(AppModel), Array, Array)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\NotesController.php(98): Model->save(Array)
+#6 [internal function]: NotesController->add()
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-08-13 18:13:32 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'student' doesn't have a default value
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('INSERT INTO `ma...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(1026): DboSource->execute('INSERT INTO `ma...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1940): DboSource->create(Object(AppModel), Array, Array)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\NotesController.php(98): Model->save(Array)
+#6 [internal function]: NotesController->add()
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-08-13 18:13:42 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'student' doesn't have a default value
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('INSERT INTO `ma...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(1026): DboSource->execute('INSERT INTO `ma...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1940): DboSource->create(Object(AppModel), Array, Array)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\NotesController.php(98): Model->save(Array)
+#6 [internal function]: NotesController->add()
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-08-13 18:14:14 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'note' doesn't have a default value
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('INSERT INTO `ma...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(1026): DboSource->execute('INSERT INTO `ma...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1940): DboSource->create(Object(AppModel), Array, Array)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\NotesController.php(98): Model->save(Array)
+#6 [internal function]: NotesController->add()
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-08-13 18:14:41 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'note' doesn't have a default value
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('INSERT INTO `ma...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(1026): DboSource->execute('INSERT INTO `ma...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1940): DboSource->create(Object(AppModel), Array, Array)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\NotesController.php(98): Model->save(Array)
+#6 [internal function]: NotesController->add()
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-08-13 18:15:37 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`manpower`.`notes`, CONSTRAINT `notes_ibfk_1` FOREIGN KEY (`student`) REFERENCES `students` (`id`))
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('INSERT INTO `ma...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(1026): DboSource->execute('INSERT INTO `ma...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1940): DboSource->create(Object(AppModel), Array, Array)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\NotesController.php(98): Model->save(Array)
+#6 [internal function]: NotesController->add()
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-08-13 18:38:46 Error: [MissingTableException] Table subjects for model Subject was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'subjects',
+  'class' => 'Subject',
+  'ds' => 'default',
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Subjects
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(3660): Model->setSource('subjects')
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(3038): Model->getDataSource()
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(3010): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\SubjectsController.php(10): Model->find('all')
+#4 [internal function]: SubjectsController->index()
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(SubjectsController), Array)
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SubjectsController), Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2017-08-13 18:39:36 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'name' doesn't have a default value
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Subjects/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('INSERT INTO `ma...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(1026): DboSource->execute('INSERT INTO `ma...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1940): DboSource->create(Object(AppModel), Array, Array)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\SubjectsController.php(98): Model->save(Array)
+#6 [internal function]: SubjectsController->add()
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(SubjectsController), Array)
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SubjectsController), Object(CakeRequest))
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-08-13 14:43:31 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`manpower`.`notes`, CONSTRAINT `fk_grade_id` FOREIGN KEY (`subject`) REFERENCES `subjects` (`id`))
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('INSERT INTO `ma...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(1026): DboSource->execute('INSERT INTO `ma...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1940): DboSource->create(Object(Note), Array, Array)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\NotesController.php(98): Model->save(Array)
+#6 [internal function]: NotesController->add()
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-08-13 14:47:00 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: App::load('Note')
+#1 [internal function]: spl_autoload_call('Note')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Note')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(163): ClassRegistry::init('Note')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Note')
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Note', 'key')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\View\Notes\add.ctp(10): FormHelper->create('Note')
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(971): include('C:\\wamp\\www\\cak...')
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#11 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#12 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#13 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-08-13 14:57:01 Error: [ParseError] syntax error, unexpected 'array' (T_ARRAY), expecting ',' or ')'
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-08-13 15:12:15 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: NotesController->add()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-13 15:13:01 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: NotesController->add()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-13 15:13:09 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: NotesController->add()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-13 15:13:15 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: NotesController->add()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-13 15:13:21 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: NotesController->add()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-13 15:14:04 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: NotesController->add()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-13 15:14:13 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: NotesController->add()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-13 15:14:29 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: NotesController->add()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-13 15:14:39 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: NotesController->add()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-13 15:19:46 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: NotesController->add()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-13 15:32:28 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: NotesController->add()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-13 15:32:34 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: NotesController->add()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-13 15:33:40 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`manpower`.`notes`, CONSTRAINT `fk_grade_id` FOREIGN KEY (`subject`) REFERENCES `subjects` (`id`))
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('INSERT INTO `ma...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(1026): DboSource->execute('INSERT INTO `ma...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1940): DboSource->create(Object(Note), Array, Array)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\NotesController.php(101): Model->save(Array)
+#6 [internal function]: NotesController->add()
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-08-13 15:35:35 Error: [Error] Class 'Subject' not found
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: NotesController->add()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-13 15:35:47 Error: [Error] Class 'Subject' not found
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: NotesController->add()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-13 15:38:26 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: NotesController->add()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-13 15:40:04 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: NotesController->add()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-13 15:40:11 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: NotesController->add()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-13 15:40:30 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: NotesController->add()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-13 15:41:34 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: NotesController->add()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-13 15:43:38 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: NotesController->add()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-13 15:44:04 Error: [ParseError] syntax error, unexpected 'subject' (T_STRING), expecting variable (T_VARIABLE)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: App::load('Note')
+#1 [internal function]: spl_autoload_call('Note')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Note')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(741): ClassRegistry::init('Note')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(368): Controller->loadModel('Note')
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(406): Controller->__isset('Note')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\NotesController.php(94): Controller->__get('Note')
+#7 [internal function]: NotesController->add()
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#11 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-08-13 15:44:19 Error: Fatal Error (64): Constant expression contains invalid operations in [C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Model\Note.php, line 8]
+2017-08-13 15:44:19 Error: [FatalErrorException] Constant expression contains invalid operations
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'Constant expres...', 'C:\\wamp\\www\\cak...', 8)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Core\App.php(970): ErrorHandler::handleError(64, 'Constant expres...', 'C:\\wamp\\www\\cak...', 8, Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2017-08-13 15:44:25 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: NotesController->add()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-13 19:47:57 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: App::load('Note')
+#1 [internal function]: spl_autoload_call('Note')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Note')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(163): ClassRegistry::init('Note')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Note')
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Note', 'key')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\View\Notes\add.ctp(10): FormHelper->create('Note')
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(971): include('C:\\wamp\\www\\cak...')
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#11 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#12 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#13 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-08-13 19:48:06 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: App::load('Note')
+#1 [internal function]: spl_autoload_call('Note')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Note')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(163): ClassRegistry::init('Note')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Note')
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Note', 'key')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\View\Notes\add.ctp(10): FormHelper->create('Note')
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(971): include('C:\\wamp\\www\\cak...')
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#11 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#12 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#13 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-08-13 19:49:30 Error: [ParseError] syntax error, unexpected ''valueField'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: App::load('NotesController')
+#1 [internal function]: spl_autoload_call('NotesController')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(266): class_exists('NotesController')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-08-13 19:49:44 Error: [ParseError] syntax error, unexpected ''valueField'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: App::load('NotesController')
+#1 [internal function]: spl_autoload_call('NotesController')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(266): class_exists('NotesController')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-08-13 19:53:14 Error: [ParseError] syntax error, unexpected '}'
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes
+Stack Trace:
+#0 [internal function]: App::load('NotesController')
+#1 [internal function]: spl_autoload_call('NotesController')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(266): class_exists('NotesController')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-08-13 19:53:45 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes
+Stack Trace:
+#0 [internal function]: App::load('NotesController')
+#1 [internal function]: spl_autoload_call('NotesController')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(266): class_exists('NotesController')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-08-13 19:59:52 Error: [ParseError] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes
+Stack Trace:
+#0 [internal function]: App::load('Note')
+#1 [internal function]: spl_autoload_call('Note')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Note')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(741): ClassRegistry::init('Note')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(368): Controller->loadModel('Note')
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(406): Controller->__isset('Note')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\NotesController.php(10): Controller->__get('Note')
+#7 [internal function]: NotesController->index()
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#11 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-08-13 20:03:35 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Student.name' in 'field list'
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('SELECT `Student...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `Student...', Array, Array)
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(1120): DboSource->fetchAll('SELECT `Student...', Array)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(3038): DboSource->read(Object(Student), Array)
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(3010): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\NotesController.php(97): Model->find('all', Array)
+#7 [internal function]: NotesController->add()
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#11 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-08-13 20:03:56 Error: [PDOException] SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'id' for column 'student' at row 1
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('INSERT INTO `ma...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(1026): DboSource->execute('INSERT INTO `ma...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1940): DboSource->create(Object(Note), Array, Array)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\NotesController.php(106): Model->save(Array)
+#6 [internal function]: NotesController->add()
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-08-13 20:04:04 Error: [PDOException] SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'firstname' for column 'student' at row 1
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('INSERT INTO `ma...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(1026): DboSource->execute('INSERT INTO `ma...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1940): DboSource->create(Object(Note), Array, Array)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\NotesController.php(106): Model->save(Array)
+#6 [internal function]: NotesController->add()
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-08-13 20:20:17 Error: [ParseError] syntax error, unexpected 'valueField' (T_STRING), expecting ')'
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: App::load('NotesController')
+#1 [internal function]: spl_autoload_call('NotesController')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(266): class_exists('NotesController')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-08-13 20:20:24 Error: [ParseError] syntax error, unexpected 'valueField' (T_STRING), expecting ')'
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: App::load('NotesController')
+#1 [internal function]: spl_autoload_call('NotesController')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(266): class_exists('NotesController')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-08-13 20:20:36 Error: [ParseError] syntax error, unexpected 'valueField' (T_STRING), expecting ')'
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: App::load('NotesController')
+#1 [internal function]: spl_autoload_call('NotesController')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(266): class_exists('NotesController')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-08-13 20:22:26 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Student.lasttname' in 'field list'
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('SELECT `Student...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `Student...', Array, Array)
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(1120): DboSource->fetchAll('SELECT `Student...', Array)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(3038): DboSource->read(Object(Student), Array)
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(3010): Model->_readDataSource('list', Array)
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\NotesController.php(97): Model->find('list', Array)
+#7 [internal function]: NotesController->add()
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#11 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-08-13 20:24:18 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Student.firstname lastname' in 'field list'
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('SELECT `Student...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `Student...', Array, Array)
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(1120): DboSource->fetchAll('SELECT `Student...', Array)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(3038): DboSource->read(Object(Student), Array)
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(3010): Model->_readDataSource('list', Array)
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\NotesController.php(97): Model->find('list', Array)
+#7 [internal function]: NotesController->add()
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#11 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-08-13 22:30:42 Error: [ParseError] syntax error, unexpected ',', expecting ')'
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: App::load('Note')
+#1 [internal function]: spl_autoload_call('Note')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Note')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(741): ClassRegistry::init('Note')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(368): Controller->loadModel('Note')
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(406): Controller->__isset('Note')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\NotesController.php(104): Controller->__get('Note')
+#7 [internal function]: NotesController->add()
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#11 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-08-13 22:35:21 Error: [ParseError] syntax error, unexpected 'array' (T_ARRAY), expecting variable (T_VARIABLE)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: App::load('Note')
+#1 [internal function]: spl_autoload_call('Note')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Note')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(163): ClassRegistry::init('Note')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Note')
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Note', 'key')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\View\Notes\add.ctp(10): FormHelper->create('Note')
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(971): include('C:\\wamp\\www\\cak...')
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#11 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#12 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#13 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-08-13 22:35:29 Error: [ParseError] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: App::load('Note')
+#1 [internal function]: spl_autoload_call('Note')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Note')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(163): ClassRegistry::init('Note')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Note')
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Note', 'key')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\View\Notes\add.ctp(10): FormHelper->create('Note')
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(971): include('C:\\wamp\\www\\cak...')
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#11 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#12 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#13 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-08-13 22:35:44 Error: [ParseError] syntax error, unexpected 'array' (T_ARRAY), expecting variable (T_VARIABLE)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: App::load('Note')
+#1 [internal function]: spl_autoload_call('Note')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Note')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(163): ClassRegistry::init('Note')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Note')
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Note', 'key')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\View\Notes\add.ctp(10): FormHelper->create('Note')
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(971): include('C:\\wamp\\www\\cak...')
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#11 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#12 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#13 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-08-13 22:35:54 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: App::load('Note')
+#1 [internal function]: spl_autoload_call('Note')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Note')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(163): ClassRegistry::init('Note')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Note')
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Note', 'key')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\View\Notes\add.ctp(10): FormHelper->create('Note')
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(971): include('C:\\wamp\\www\\cak...')
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#11 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#12 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#13 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-08-13 22:38:20 Error: [ParseError] syntax error, unexpected 'array' (T_ARRAY), expecting variable (T_VARIABLE)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: App::load('Note')
+#1 [internal function]: spl_autoload_call('Note')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Note')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(163): ClassRegistry::init('Note')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Note')
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Note', 'key')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\View\Notes\add.ctp(10): FormHelper->create('Note')
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(971): include('C:\\wamp\\www\\cak...')
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#11 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#12 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#13 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-08-13 22:38:31 Error: [ParseError] syntax error, unexpected 'array' (T_ARRAY), expecting variable (T_VARIABLE)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: App::load('Note')
+#1 [internal function]: spl_autoload_call('Note')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Note')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(163): ClassRegistry::init('Note')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Note')
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Note', 'key')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\View\Notes\add.ctp(10): FormHelper->create('Note')
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(971): include('C:\\wamp\\www\\cak...')
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#11 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#12 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#13 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-08-13 22:38:36 Error: [ParseError] syntax error, unexpected 'array' (T_ARRAY), expecting variable (T_VARIABLE)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: App::load('Note')
+#1 [internal function]: spl_autoload_call('Note')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Note')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(163): ClassRegistry::init('Note')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Note')
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Note', 'key')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\View\Notes\add.ctp(10): FormHelper->create('Note')
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(971): include('C:\\wamp\\www\\cak...')
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#11 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#12 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#13 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-08-13 22:38:46 Error: [ParseError] syntax error, unexpected 'array' (T_ARRAY), expecting variable (T_VARIABLE)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: App::load('Note')
+#1 [internal function]: spl_autoload_call('Note')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Note')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(163): ClassRegistry::init('Note')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Note')
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Note', 'key')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\View\Notes\add.ctp(10): FormHelper->create('Note')
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(971): include('C:\\wamp\\www\\cak...')
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#11 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#12 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#13 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-08-13 22:39:35 Error: [ParseError] syntax error, unexpected 'array' (T_ARRAY), expecting variable (T_VARIABLE)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: App::load('Note')
+#1 [internal function]: spl_autoload_call('Note')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Note')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(163): ClassRegistry::init('Note')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Note')
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Note', 'key')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\View\Notes\add.ctp(10): FormHelper->create('Note')
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(971): include('C:\\wamp\\www\\cak...')
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#11 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#12 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#13 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-08-13 22:46:49 Error: [ParseError] syntax error, unexpected '<=' (T_IS_SMALLER_OR_EQUAL), expecting ')'
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: App::load('Note')
+#1 [internal function]: spl_autoload_call('Note')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Note')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(163): ClassRegistry::init('Note')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Note')
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Note', 'key')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\View\Notes\add.ctp(10): FormHelper->create('Note')
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(971): include('C:\\wamp\\www\\cak...')
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#11 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#12 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#13 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-08-13 23:03:25 Error: [ParseError] syntax error, unexpected ',', expecting ')'
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Notes/add
+Stack Trace:
+#0 [internal function]: App::load('Note')
+#1 [internal function]: spl_autoload_call('Note')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Note')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(741): ClassRegistry::init('Note')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(368): Controller->loadModel('Note')
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(406): Controller->__isset('Note')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\NotesController.php(104): Controller->__get('Note')
+#7 [internal function]: NotesController->add()
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NotesController), Array)
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest))
+#11 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-08-13 23:31:46 Error: [ParseError] syntax error, unexpected ',', expecting ')'
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/add
+Stack Trace:
+#0 [internal function]: App::load('Student')
+#1 [internal function]: spl_autoload_call('Student')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Student')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(163): ClassRegistry::init('Student')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Student')
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Student', 'key')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\View\Students\add.ctp(10): FormHelper->create('Student')
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(971): include('C:\\wamp\\www\\cak...')
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#11 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#12 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#13 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-08-13 23:32:07 Error: [ParseError] syntax error, unexpected ',', expecting ')'
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/add
+Stack Trace:
+#0 [internal function]: App::load('Student')
+#1 [internal function]: spl_autoload_call('Student')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Student')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(163): ClassRegistry::init('Student')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Student')
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Student', 'key')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\View\Students\add.ctp(10): FormHelper->create('Student')
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(971): include('C:\\wamp\\www\\cak...')
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#11 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#12 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#13 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-08-13 23:32:14 Error: [ParseError] syntax error, unexpected ',', expecting ')'
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/add
+Stack Trace:
+#0 [internal function]: App::load('Student')
+#1 [internal function]: spl_autoload_call('Student')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Student')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(163): ClassRegistry::init('Student')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Student')
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Student', 'key')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\View\Students\add.ctp(10): FormHelper->create('Student')
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(971): include('C:\\wamp\\www\\cak...')
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#11 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#12 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#13 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-08-13 23:32:27 Error: [ParseError] syntax error, unexpected ''birthday'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/add
+Stack Trace:
+#0 [internal function]: App::load('Student')
+#1 [internal function]: spl_autoload_call('Student')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Student')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(163): ClassRegistry::init('Student')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Student')
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Student', 'key')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\View\Students\add.ctp(10): FormHelper->create('Student')
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(971): include('C:\\wamp\\www\\cak...')
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#11 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#12 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#13 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-08-13 23:32:38 Error: [ParseError] syntax error, unexpected ',', expecting ')'
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/add
+Stack Trace:
+#0 [internal function]: App::load('Student')
+#1 [internal function]: spl_autoload_call('Student')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Student')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(163): ClassRegistry::init('Student')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Student')
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Student', 'key')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\View\Students\add.ctp(10): FormHelper->create('Student')
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(971): include('C:\\wamp\\www\\cak...')
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#11 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#12 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#13 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-08-14 11:03:42 Error: [NotFoundException] Not Found
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(971): include()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render('home', NULL)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\PagesController.php(68): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 11:06:43 Error: [NotFoundException] Not Found
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(971): include()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render('home', NULL)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\PagesController.php(68): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 11:07:53 Error: [NotFoundException] Not Found
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(971): include()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render('home', NULL)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\PagesController.php(68): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 11:19:14 Error: [NotFoundException] Not Found
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(971): include()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render('home', NULL)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\PagesController.php(68): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 11:20:25 Error: [NotFoundException] Not Found
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(971): include()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render('home', NULL)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\PagesController.php(68): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 11:20:28 Error: [NotFoundException] Not Found
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(971): include()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render('home', NULL)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\PagesController.php(68): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 11:20:46 Error: [NotFoundException] Not Found
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(971): include()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render('home', NULL)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\PagesController.php(68): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 11:23:36 Error: [NotFoundException] Not Found
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(971): include()
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render('home', NULL)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\PagesController.php(68): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 11:25:26 Error: [MissingActionException] Action StudentsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'StudentsController',
+  'action' => 'display',
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-08-14 11:25:48 Error: [MissingActionException] Action StudentsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'StudentsController',
+  'action' => 'display',
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-08-14 11:26:16 Error: [MissingActionException] Action StudentsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'StudentsController',
+  'action' => 'display',
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-08-14 11:27:28 Error: [MissingActionException] Action StudentsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'StudentsController',
+  'action' => 'display',
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-08-14 11:28:00 Error: [MissingActionException] Action StudentsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'StudentsController',
+  'action' => 'display',
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-08-14 11:29:10 Error: [MissingActionException] Action StudentsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'StudentsController',
+  'action' => 'display',
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-08-14 11:31:44 Error: [MissingActionException] Action StudentsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'StudentsController',
+  'action' => 'display',
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-08-14 11:33:14 Error: [MissingViewException] View file "Pages\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\index.ctp',
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(470): View->_getViewFileName('Pages\\index')
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render('index', NULL)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\PagesController.php(68): Controller->render('index')
+#3 [internal function]: PagesController->display('index')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2017-08-14 11:33:31 Error: [MissingViewException] View file "Pages\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\index.ctp',
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(470): View->_getViewFileName('Pages\\index')
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render('index', NULL)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\PagesController.php(68): Controller->render('index')
+#3 [internal function]: PagesController->display('index')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2017-08-14 11:33:49 Error: [MissingViewException] View file "Students\home.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Students\\home.ctp',
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(470): View->_getViewFileName('Students\\home')
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render('home', NULL)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\StudentsController.php(146): Controller->render('home')
+#3 [internal function]: StudentsController->display('home')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2017-08-14 11:34:08 Error: [MissingViewException] View file "Students\home.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Students\\home.ctp',
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(470): View->_getViewFileName('Students\\home')
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render('home', NULL)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\StudentsController.php(146): Controller->render('home')
+#3 [internal function]: StudentsController->display('home')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2017-08-14 11:35:00 Error: [ParseError] syntax error, unexpected '*', expecting function (T_FUNCTION)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-08-14 11:35:18 Error: [MissingViewException] View file "Students\home.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Students\\home.ctp',
+)
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(470): View->_getViewFileName('Students\\home')
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render('home', NULL)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\StudentsController.php(142): Controller->render('home')
+#3 [internal function]: StudentsController->display('home')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2017-08-14 11:47:48 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`manpower`.`notes`, CONSTRAINT `notes_ibfk_1` FOREIGN KEY (`student`) REFERENCES `students` (`id`))
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/59
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('DELETE `Student...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\Database\Mysql.php(449): DboSource->execute('DELETE `Student...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(2721): Mysql->delete(Object(Student), ' WHERE `Student...')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\StudentsController.php(77): Model->delete('59')
+#5 [internal function]: StudentsController->delete('59')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 11:48:44 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`manpower`.`notes`, CONSTRAINT `fk_grade_id` FOREIGN KEY (`subject`) REFERENCES `subjects` (`id`))
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Subjects/delete/60
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('DELETE `Subject...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\Database\Mysql.php(449): DboSource->execute('DELETE `Subject...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(2721): Mysql->delete(Object(Subject), ' WHERE `Subject...')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\SubjectsController.php(77): Model->delete('60')
+#5 [internal function]: SubjectsController->delete('60')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(SubjectsController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SubjectsController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 11:50:42 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`manpower`.`notes`, CONSTRAINT `notes_ibfk_1` FOREIGN KEY (`student`) REFERENCES `students` (`id`))
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/59
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('DELETE `Student...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\Database\Mysql.php(449): DboSource->execute('DELETE `Student...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(2721): Mysql->delete(Object(Student), ' WHERE `Student...')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\StudentsController.php(77): Model->delete('59', true)
+#5 [internal function]: StudentsController->delete('59')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 11:56:08 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`manpower`.`notes`, CONSTRAINT `notes_ibfk_1` FOREIGN KEY (`student`) REFERENCES `students` (`id`))
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/59
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('DELETE `Student...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\Database\Mysql.php(449): DboSource->execute('DELETE `Student...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(2721): Mysql->delete(Object(Student), ' WHERE `Student...')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\StudentsController.php(77): Model->delete('59')
+#5 [internal function]: StudentsController->delete('59')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 11:59:01 Error: [Error] Call to undefined method StudentsController::hasMany()
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/59
+Stack Trace:
+#0 [internal function]: StudentsController->delete('59')
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-14 11:59:15 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`manpower`.`notes`, CONSTRAINT `notes_ibfk_1` FOREIGN KEY (`student`) REFERENCES `students` (`id`))
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/59
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('DELETE `Student...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\Database\Mysql.php(449): DboSource->execute('DELETE `Student...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(2721): Mysql->delete(Object(Student), ' WHERE `Student...')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\StudentsController.php(78): Model->delete('59')
+#5 [internal function]: StudentsController->delete('59')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 12:01:56 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`manpower`.`notes`, CONSTRAINT `notes_ibfk_1` FOREIGN KEY (`student`) REFERENCES `students` (`id`))
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/59
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('DELETE `Student...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\Database\Mysql.php(449): DboSource->execute('DELETE `Student...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(2721): Mysql->delete(Object(Student), ' WHERE `Student...')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\StudentsController.php(78): Model->delete('59')
+#5 [internal function]: StudentsController->delete('59')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 12:02:40 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`manpower`.`notes`, CONSTRAINT `notes_ibfk_1` FOREIGN KEY (`student`) REFERENCES `students` (`id`))
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/59
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('DELETE `Student...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\Database\Mysql.php(449): DboSource->execute('DELETE `Student...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(2721): Mysql->delete(Object(Student), ' WHERE `Student...')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\StudentsController.php(78): Model->delete('59')
+#5 [internal function]: StudentsController->delete('59')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 12:03:25 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`manpower`.`notes`, CONSTRAINT `notes_ibfk_1` FOREIGN KEY (`student`) REFERENCES `students` (`id`))
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/59
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('DELETE `Student...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\Database\Mysql.php(449): DboSource->execute('DELETE `Student...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(2721): Mysql->delete(Object(Student), ' WHERE `Student...')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\StudentsController.php(78): Model->delete('59', false)
+#5 [internal function]: StudentsController->delete('59')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 12:03:30 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`manpower`.`notes`, CONSTRAINT `notes_ibfk_1` FOREIGN KEY (`student`) REFERENCES `students` (`id`))
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/59
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('DELETE `Student...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\Database\Mysql.php(449): DboSource->execute('DELETE `Student...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(2721): Mysql->delete(Object(Student), ' WHERE `Student...')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\StudentsController.php(78): Model->delete('59', false)
+#5 [internal function]: StudentsController->delete('59')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 12:03:38 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`manpower`.`notes`, CONSTRAINT `notes_ibfk_1` FOREIGN KEY (`student`) REFERENCES `students` (`id`))
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/59
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('DELETE `Student...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\Database\Mysql.php(449): DboSource->execute('DELETE `Student...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(2721): Mysql->delete(Object(Student), ' WHERE `Student...')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\StudentsController.php(78): Model->delete('59', true)
+#5 [internal function]: StudentsController->delete('59')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 12:04:40 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`manpower`.`notes`, CONSTRAINT `notes_ibfk_1` FOREIGN KEY (`student`) REFERENCES `students` (`id`))
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/59
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('DELETE `Student...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\Database\Mysql.php(449): DboSource->execute('DELETE `Student...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(2721): Mysql->delete(Object(Student), ' WHERE `Student...')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\StudentsController.php(78): Model->delete('59', true)
+#5 [internal function]: StudentsController->delete('59')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 12:04:53 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`manpower`.`notes`, CONSTRAINT `notes_ibfk_1` FOREIGN KEY (`student`) REFERENCES `students` (`id`))
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/59
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('DELETE `Student...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\Database\Mysql.php(449): DboSource->execute('DELETE `Student...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(2721): Mysql->delete(Object(Student), ' WHERE `Student...')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\StudentsController.php(78): Model->delete('59', true)
+#5 [internal function]: StudentsController->delete('59')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 12:05:36 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`manpower`.`notes`, CONSTRAINT `notes_ibfk_1` FOREIGN KEY (`student`) REFERENCES `students` (`id`))
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/59
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('DELETE `Student...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\Database\Mysql.php(449): DboSource->execute('DELETE `Student...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(2721): Mysql->delete(Object(Student), ' WHERE `Student...')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\StudentsController.php(78): Model->delete('59', true)
+#5 [internal function]: StudentsController->delete('59')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 12:05:41 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`manpower`.`notes`, CONSTRAINT `notes_ibfk_1` FOREIGN KEY (`student`) REFERENCES `students` (`id`))
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/60
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('DELETE `Student...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\Database\Mysql.php(449): DboSource->execute('DELETE `Student...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(2721): Mysql->delete(Object(Student), ' WHERE `Student...')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\StudentsController.php(78): Model->delete('60', true)
+#5 [internal function]: StudentsController->delete('60')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 12:09:32 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/59
+Stack Trace:
+#0 [internal function]: StudentsController->delete('59')
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-14 12:11:26 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/59
+Stack Trace:
+#0 [internal function]: StudentsController->delete('59')
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-14 12:11:35 Error: [ParseError] syntax error, unexpected ''dependent'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/59
+Stack Trace:
+#0 [internal function]: App::load('Note')
+#1 [internal function]: spl_autoload_call('Note')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Note')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(741): ClassRegistry::init('Note')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\StudentsController.php(78): Controller->loadModel('Note')
+#5 [internal function]: StudentsController->delete('59')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 12:12:21 Error: [Error] Call to a member function where() on array
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/59
+Stack Trace:
+#0 [internal function]: StudentsController->delete('59')
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-14 12:12:42 Error: [Error] Call to a member function where() on array
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/59
+Stack Trace:
+#0 [internal function]: StudentsController->delete('59')
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-14 12:12:49 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`manpower`.`notes`, CONSTRAINT `notes_ibfk_1` FOREIGN KEY (`student`) REFERENCES `students` (`id`))
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/59
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('DELETE `Student...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\Database\Mysql.php(449): DboSource->execute('DELETE `Student...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(2721): Mysql->delete(Object(Student), ' WHERE `Student...')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\StudentsController.php(79): Model->delete('59', true)
+#5 [internal function]: StudentsController->delete('59')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 12:12:59 Error: [Error] Call to a member function where() on array
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/59
+Stack Trace:
+#0 [internal function]: StudentsController->delete('59')
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-14 12:13:09 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`manpower`.`notes`, CONSTRAINT `notes_ibfk_1` FOREIGN KEY (`student`) REFERENCES `students` (`id`))
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/59
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('DELETE `Student...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\Database\Mysql.php(449): DboSource->execute('DELETE `Student...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(2721): Mysql->delete(Object(Student), ' WHERE `Student...')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\StudentsController.php(80): Model->delete('59', true)
+#5 [internal function]: StudentsController->delete('59')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 12:14:49 Error: [ParseError] syntax error, unexpected ','
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/59
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-08-14 12:15:22 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== 59' at line 1
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/59
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('SELECT `Note`.`...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `Note`.`...', Array, Array)
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(1120): DboSource->fetchAll('SELECT `Note`.`...', Array)
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(3038): DboSource->read(Object(Note), Array)
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(3010): Model->_readDataSource('list', Array)
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\StudentsController.php(80): Model->find('list', Array)
+#7 [internal function]: StudentsController->delete('59')
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#11 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-08-14 12:15:54 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`manpower`.`notes`, CONSTRAINT `notes_ibfk_1` FOREIGN KEY (`student`) REFERENCES `students` (`id`))
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/59
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('DELETE `Student...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\Database\Mysql.php(449): DboSource->execute('DELETE `Student...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(2721): Mysql->delete(Object(Student), ' WHERE `Student...')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\StudentsController.php(81): Model->delete('59', true)
+#5 [internal function]: StudentsController->delete('59')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 12:16:28 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`manpower`.`notes`, CONSTRAINT `notes_ibfk_1` FOREIGN KEY (`student`) REFERENCES `students` (`id`))
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/60
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('DELETE `Student...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\Database\Mysql.php(449): DboSource->execute('DELETE `Student...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(2721): Mysql->delete(Object(Student), ' WHERE `Student...')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\StudentsController.php(82): Model->delete('60', true)
+#5 [internal function]: StudentsController->delete('60')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 12:17:06 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`manpower`.`notes`, CONSTRAINT `notes_ibfk_1` FOREIGN KEY (`student`) REFERENCES `students` (`id`))
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/59
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('DELETE `Student...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\Database\Mysql.php(449): DboSource->execute('DELETE `Student...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(2721): Mysql->delete(Object(Student), ' WHERE `Student...')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\StudentsController.php(82): Model->delete('59', true)
+#5 [internal function]: StudentsController->delete('59')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 12:18:01 Error: [Error] Call to a member function delete() on array
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/59
+Stack Trace:
+#0 [internal function]: StudentsController->delete('59')
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-14 12:21:44 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`manpower`.`notes`, CONSTRAINT `notes_ibfk_1` FOREIGN KEY (`student`) REFERENCES `students` (`id`))
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/delete/60
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(468): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\DboSource.php(434): DboSource->_execute('DELETE `Student...', Array)
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Datasource\Database\Mysql.php(449): DboSource->execute('DELETE `Student...')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Model\Model.php(2721): Mysql->delete(Object(Student), ' WHERE `Student...')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\Controller\StudentsController.php(82): Model->delete('60', true)
+#5 [internal function]: StudentsController->delete('60')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-08-14 15:01:25 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/add
+Stack Trace:
+#0 [internal function]: App::load('Student')
+#1 [internal function]: spl_autoload_call('Student')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Student')
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(163): ClassRegistry::init('Student')
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Student')
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Student', 'key')
+#6 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\View\Students\add.ctp(10): FormHelper->create('Student')
+#7 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(971): include('C:\\wamp\\www\\cak...')
+#8 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#9 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#10 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#11 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#12 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#13 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-08-14 15:06:25 Error: [ParseError] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /cakephp-2.9.0/cakephp-2.9.0/Students/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\cak...', Array)
+#1 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\cak...')
+#2 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#5 C:\wamp\www\cakephp-2.9.0\cakephp-2.9.0\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
