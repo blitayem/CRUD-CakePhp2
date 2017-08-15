@@ -1,7 +1,7 @@
 <?php
 App::uses('AppController', 'Controller');
 /**
- * Posts Controller
+ * Subjects Controller
 */
 class  SubjectsController  extends AppController {
 

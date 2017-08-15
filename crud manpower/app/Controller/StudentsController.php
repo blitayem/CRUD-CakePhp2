@@ -1,7 +1,7 @@
 <?php
 App::uses('AppController', 'Controller');
 /**
- * Posts Controller
+ * Students Controller
 */
 class  StudentsController  extends AppController {
 
